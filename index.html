@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Top Trails in SOCAL">
+    <meta name="keywords"
+        content="trails, hiking, Southern California">
+
+    <title>Top Trails in SOCAL</title>
+
+    <link rel="stylesheet" href="css/mystyle.css">
+    <!-- <link rel="stylesheet" href="css/mystyle-from-sass.css"> -->
+</head>
+
+<body>
+    <header>
+        <img src="img/panoramic-laguna-brava-2000.jpeg" width="960" height="236"
+            alt="Panoramic view of Laguna Brava lake" title="Laguna Brava">
+        <nav>
+            <ul>
+                <li><a href="#things-to-do">Things to Do</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1>Top Trails in SOCAL</h1>
+        </div>
+    </header>
+
+    <main id="things-to-do" class="container">
+        <section class="activity-row">
+            <div class="activity-col">
+                <img src="img/hollywoodsignn.jpg" alt="Los Angeles Sign">
+            </div>
+            <div class="activity-col">
+                <h2>Hollywood Sign Trail</h2>
+                <p>Push the trail leading to the Famous Hollywood Sign and a beautiful view overlooking Los Angeles.</p>
+                <ul>
+                    <li>LEVEL OF DIFFICULTY: 3</li>
+                    <li>FEATURES: Close View of Hollywood Sign, View of LA CITY</li>
+                    <li>MILES: 6</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="activity-row">
+            <div class="activity-col">
+                <img src="img/devils.jpg" alt="Rocky Terrain">
+            </div>
+            <div class="activity-col">
+                <h2>Devils PunchBowl Trail</h2>
+                <p>Push through the rocky terrain and get a view of unique rock formation.</p>
+                <ul>
+                    <li>LEVEL OF DIFFICULTY: 2</li>
+                    <li>FEATURES: Unique Rocks, View of Mountain Peaks</li>
+                    <li>MILES: 7.5</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <aside id="contact" class="container">
+        <h2>Have you gone to these trails?</h2>
+        <p>We want to know about your experiences.</p>
+        <form action="https://api.sheetmonkey.io/form/55YHGD23mbrni37GBQ98j2" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Write your name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Write your email" required><br><br>
+            <label for="experience">Experience:</label>
+            <textarea name="experience" id="experience" placeholder="Please share with us your experience." rows="5" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+    </aside>
+
+    <footer>
+        &copy; 2024 Laguna Brava Ecotourism
+    </footer>
+</body>
+
+</html>
